@@ -6,4 +6,6 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    let=[1,37,8,9]
+    return let[1]
+print(main("1"))
