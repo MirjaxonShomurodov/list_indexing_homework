@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    n=True
+    list1=[0,1,0,1,0]
+    list1[0]=n
+    list1[4]=n
+    return list1
+print(main("list1"))
