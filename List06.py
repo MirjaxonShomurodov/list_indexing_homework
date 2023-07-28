@@ -6,9 +6,14 @@ def main(list1):
     Returns:
         list: return answer
     """
-    n=True
-    list1=[0,1,0,1,0]
-    list1[0]=n
-    list1[4]=n
+    
+    
+    i = 0
+    while i<len(list1):
+        if list1[i] != 0: # list1[i] == 1
+            list1[i] = bool(list1[i])
+        i += 1
     return list1
-print(main("list1"))
+
+list1 = [0,1,0,1,0]
+print(main(list1))
